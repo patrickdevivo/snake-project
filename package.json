@@ -1,0 +1,14 @@
+{
+  "name": "snake-project",
+  "version": "1.0.0",
+  "author": "Patrick DeVivo <patrick.devivo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --config webpack.config.js --progress --watch"
+  },
+  "devDependencies": {
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "dependencies": {}
+}
