@@ -25,3 +25,4 @@ A simple implementation of `snake`.
 	- pause / resume buttons
 	- reset button (when game ends)
 	- difficulty adjuster - modifies the frame rate of the game to move the snake either fast or slower
+- Currently there is a `moveQueue` array that grows arbitrarily with each frame render (to keep track of moves in the snake's body). This array really only needs to be the current length of the snake and no more. It should be limited, otherwise this could be considered a "memory leak."
